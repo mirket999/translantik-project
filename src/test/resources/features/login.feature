@@ -1,8 +1,9 @@
 Feature: Translantik WebPage Login feature
+
   Validate all users can log in with valid credentials (We have 3 types of users: sales manager, store manager, truck driver).
   Driver should land on the "Quick Launchpad" page after successful login
 
-@login
+@TRN-1540
   Scenario Outline: User should be able to login with valid credentials
     Given user is on the translantik login page
     When user enters "<username>" and "<password>" and logins

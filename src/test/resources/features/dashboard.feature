@@ -1,7 +1,8 @@
 Feature: Translantik WebPage DashboardPage
+
   Validate the Breadcrumb, Page Heading, Page URL, Page Title of 'Dashboard Page' Page
 
-@dashboard
+@TRN-1541
   Scenario Outline: User should be able to see the Breadcrumb,
   Page Heading, Page URL, Page Title of 'Dashboard Page' Page as expected
 
