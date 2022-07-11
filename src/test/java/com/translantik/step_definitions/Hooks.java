@@ -40,7 +40,7 @@ public class Hooks {
 
         byte [] screenshot = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
         scenario.attach(screenshot, "image/png", scenario.getName());
-
+        BrowserUtils.sleep(2);
         Driver.closeDriver();
 
     }
@@ -58,7 +58,8 @@ public class Hooks {
 
     //@AfterStep
     public void afterStep(){
-        System.out.println("--------> applying tearDown using @AfterStep");
+
+        BrowserUtils.sleep(2);
     }
 
 

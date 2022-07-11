@@ -1,3 +1,4 @@
+@login
 Feature: Translantik WebPage DashboardPage
 
   Validate the Breadcrumb, Page Heading, Page URL, Page Title of 'Dashboard Page' Page
